@@ -19,11 +19,12 @@ These version identifiers are recorded in the repository's `VERSION` file.
 - Clone URL: https://github.com/eshankarthik/retailflow-data-engineering-databricks.git
 
 ## Local clone
-- Active local repository path verified during Git work: `E:\\GIT\\retailflow-data-engineering-databricks`
-- Earlier clone folder: `Documents\\retailflow-data-engineering-databricks`
-- Active Git branch: `main`
+- Local clone folder name: `retailflow-data-engineering-databricks`
+- Clone command: `git clone https://github.com/eshankarthik/retailflow-data-engineering-databricks.git`
+- Local Git branch: `main`
+- Absolute Windows clone path: not recorded; it depends on the directory in which the clone command is run.
 
-The active local repository is the working copy used to export edited Databricks notebooks, add submission evidence, commit, and push to the personal fork.
+Use the cloned `retailflow-data-engineering-databricks` folder as the working copy to export edited Databricks notebooks, add submission evidence, commit, and push to the personal fork.
 
 ## Databricks setup evidence
 The supplied setup notebook must be run in the trainer-provided Databricks Serverless workspace after the complete `retailflow-v1.0.0` dataset folder has been uploaded to the assigned Unity Catalog volume. Replace the example `CATALOG`, `SCHEMA`, `VOLUME`, and `TABLE_PREFIX` values in every notebook with the trainer-assigned names before execution.
